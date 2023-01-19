@@ -1,6 +1,7 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 700px;
+    margin: auto;
 }
 
 nav {
@@ -8,11 +9,13 @@ nav {
 }
 
 #links {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: inline-block;
     position: absolute;
     top: 30px;
-    padding: 10px;
+    padding: 10px 0px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
     background-color: black;
     
 }
@@ -21,6 +24,7 @@ nav {
     text-decoration: none;
     color: white;
     padding: 10px;
+    /* margin: 10px; */
 
 }
 
@@ -36,4 +40,12 @@ a:hover {
 #image {
     display: inline-block;
     
+}
+
+.Welcome {
+    display:inline-block;
+}
+
+#Vienna {
+    display: inline-block;
 }
