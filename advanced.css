@@ -1,7 +1,10 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 700px;
+    width: 800px;
     margin: auto;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/00/85/09/16/1000_F_85091673_zLOEErZPfbv4VmLORTFkPtxAlS0YXHPN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -44,8 +47,18 @@ a:hover {
 
 .Welcome {
     display:inline-block;
+    text-align: justify;
 }
 
 #Vienna {
     display: inline-block;
+}
+
+#hero {
+    font-size: 175%;
+    margin: 100px 50px;
+}
+
+#herobutton {
+    background-color: transparent;
 }
